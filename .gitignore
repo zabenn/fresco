@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local data and secrets
+data/
+.envrc
+.env
+bench_out/
+
+# Web app
+node_modules/
+*.tsbuildinfo
