@@ -9,6 +9,7 @@ in the PDF (page and bounding box).
   boxes, correct the JSON)
 - **API:** https://fresco-zxc7.onrender.com
 - **Docs:** https://fresco-zxc7.onrender.com/docs (interactive) and `/redoc`
+- **Loom walkthrough:** https://www.loom.com/share/c2527e289de542b58993e32b690d56e9
 
 ```bash
 curl -F file=@spec.pdf https://fresco-zxc7.onrender.com/extract
