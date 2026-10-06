@@ -1,0 +1,8 @@
+__pycache__/
+.envrc
+.git/
+.venv/
+data/
+.env
+bench_out/
+web/

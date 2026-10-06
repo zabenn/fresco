@@ -1,0 +1,38 @@
+databases:
+  - name: fresco-db
+    databaseName: fresco
+    user: fresco
+    plan: free
+    region: oregon
+    postgresMajorVersion: "17"
+services:
+  - name: fresco
+    type: web
+    runtime: docker
+    plan: starter
+    region: oregon
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: FRESCO_MODEL
+        value: claude-sonnet-5-5
+      - key: DATABASE_URL
+        fromDatabase:
+          name: fresco-db
+          property: connectionString
+    healthCheckPath: /docs
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    autoDeployTrigger: commit
+  - name: fresco-web
+    type: web
+    runtime: static
+    rootDir: web
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://fresco.onrender.com
+      - key: NODE_VERSION
+        value: "24"
+    autoDeployTrigger: commit
