@@ -5,13 +5,13 @@ title, the doors it's used on, its components (qty, description, catalog number,
 manufacturer, finish, notes), set notes, operational description, and where it sits
 in the PDF (page and bounding box).
 
-- **Web app:** https://fresco-web.onrender.com (upload a PDF, check each page's set
+- **Web app:** https://fresco-web-rfhi.onrender.com (upload a PDF, check each page's set
   boxes, correct the JSON)
-- **API:** https://fresco.onrender.com
-- **Docs:** https://fresco.onrender.com/docs (interactive) and `/redoc`
+- **API:** https://fresco-zxc7.onrender.com
+- **Docs:** https://fresco-zxc7.onrender.com/docs (interactive) and `/redoc`
 
 ```bash
-curl -F file=@spec.pdf https://fresco.onrender.com/extract
+curl -F file=@spec.pdf https://fresco-zxc7.onrender.com/extract
 ```
 
 ## Pipeline

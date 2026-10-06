@@ -32,7 +32,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://fresco.onrender.com
+        value: https://fresco-zxc7.onrender.com
       - key: NODE_VERSION
         value: "24"
     autoDeployTrigger: commit
