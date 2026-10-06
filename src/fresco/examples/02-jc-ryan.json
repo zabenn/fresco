@@ -1,0 +1,74 @@
+{
+  "source": "087100 - Door Hardware-6.pdf",
+  "page": 41,
+  "input": "=== page 41 ===\np41.21 | [286] Set: 16.0\np41.22 | [74] Description: Single Opening – Temporary Opening\n\np41.23 | [83] Hinge, Full Mortise | [273] TA2714 | [471] McKinney\np41.24 | [74] 1 Classroom Lock | [273] 8237 LNMI | [471] Sargent\np41.25 | [74] 1 Surface Closer | [273] CPS-1601 | [471] Norton\np41.26 | [74] 3 Silencers | [273] SR64/ SR65",
+  "output": {
+    "sets": [
+      {
+        "set_number": "16.0",
+        "description": "Single Opening – Temporary Opening",
+        "not_used": false,
+        "continues_previous_set": false,
+        "openings": [],
+        "header_line_ids": [
+          "p41.21",
+          "p41.22"
+        ],
+        "components": [
+          {
+            "qty": null,
+            "unit": null,
+            "description": "Hinge, Full Mortise",
+            "catalog_number": "TA2714",
+            "mfr": "McKinney",
+            "finish": null,
+            "notes": null,
+            "line_ids": [
+              "p41.23"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Classroom Lock",
+            "catalog_number": "8237 LNMI",
+            "mfr": "Sargent",
+            "finish": null,
+            "notes": null,
+            "line_ids": [
+              "p41.24"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Surface Closer",
+            "catalog_number": "CPS-1601",
+            "mfr": "Norton",
+            "finish": null,
+            "notes": null,
+            "line_ids": [
+              "p41.25"
+            ]
+          },
+          {
+            "qty": 3,
+            "unit": null,
+            "description": "Silencers",
+            "catalog_number": "SR64/SR65",
+            "mfr": null,
+            "finish": null,
+            "notes": null,
+            "line_ids": [
+              "p41.26"
+            ]
+          }
+        ],
+        "notes": [],
+        "note_line_ids": [],
+        "operation": null,
+        "operation_line_ids": []
+      }
+    ]
+  }
+}

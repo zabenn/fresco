@@ -1,0 +1,172 @@
+{
+  "source": "Project Manual (1).pdf (Forest Park School)",
+  "page": 262,
+  "input": "=== page 262 ===\np262.2 | [72] EDW | [108] Edwards Signaling\np262.3 | [72] NGP | [108] National Guard Products\np262.4 | [72] PRE | [108] BEST (Precision)\np262.5 | [72] RCI | [108] Rutherford Controls Inc\n\np262.6 | [72] OPTION LIST:\n\np262.7 | [72] Code: | [216] Name:\np262.8 | [72] 4\" ODW | [216] 4\" Over Door Width\np262.9 | [72] B4E | [216] Beveled 4 Edges\np262.12 | [72] LAR | [216] Length as Required\np262.13 | [72] NRP | [216] Non-Removable Pins\np262.15 | [72] LDW | [216] Less Door Width\np262.16 | [72] RQE | [216] Request to Exit\n\np262.23 | [72] FINISH LIST:\n\np262.24 | [72] Code: | [216] Name:\np262.25 | [72] 626 | [216] Satin Chromium Plated Over Nickel\np262.26 | [72] 630 | [216] Satin Stainless Steel\np262.27 | [72] 689 | [216] Aluminum (Painted)\np262.28 | [72] 26D | [216] Satin Chromium Plated Over Nickel\np262.32 | [72] B | [216] Brown\np262.33 | [72] C | [216] Charcoal\n\np262.35 | [72] HARDWARE SETS:\n\np262.36 | [72] Set #1\np262.37 | [72] Doors: 256a, 2p57a\n\np262.38 | [72] 3.0 Hinge | [234] FBB179 NRP 4.5X4.5 | [454] 26D | [500] BES\np262.39 | [72] 1.0 Mortise Lock-Storeroom | [234] 45H-0D-15H LESS CYLINDER | [454] 626 | [500] BES",
+  "output": {
+    "sets": [
+      {
+        "set_number": "1",
+        "header_line_ids": [
+          "p262.36",
+          "p262.37"
+        ],
+        "openings": [
+          "256a",
+          "2p57a"
+        ],
+        "components": [
+          {
+            "qty": 3.0,
+            "description": "Hinge",
+            "catalog_number": "FBB179 NRP 4.5X4.5",
+            "finish": "26D",
+            "mfr": "BES",
+            "line_ids": [
+              "p262.38"
+            ]
+          },
+          {
+            "qty": 1.0,
+            "description": "Mortise Lock-Storeroom",
+            "catalog_number": "45H-0D-15H LESS CYLINDER",
+            "finish": "626",
+            "mfr": "BES",
+            "line_ids": [
+              "p262.39"
+            ]
+          }
+        ]
+      }
+    ],
+    "codes": [
+      {
+        "kind": "mfr",
+        "code": "EDW",
+        "meaning": "Edwards Signaling",
+        "line_ids": [
+          "p262.2"
+        ]
+      },
+      {
+        "kind": "mfr",
+        "code": "NGP",
+        "meaning": "National Guard Products",
+        "line_ids": [
+          "p262.3"
+        ]
+      },
+      {
+        "kind": "mfr",
+        "code": "PRE",
+        "meaning": "BEST (Precision)",
+        "line_ids": [
+          "p262.4"
+        ]
+      },
+      {
+        "kind": "mfr",
+        "code": "RCI",
+        "meaning": "Rutherford Controls Inc",
+        "line_ids": [
+          "p262.5"
+        ]
+      },
+      {
+        "kind": "option",
+        "code": "4\" ODW",
+        "meaning": "4\" Over Door Width",
+        "line_ids": [
+          "p262.8"
+        ]
+      },
+      {
+        "kind": "option",
+        "code": "B4E",
+        "meaning": "Beveled 4 Edges",
+        "line_ids": [
+          "p262.9"
+        ]
+      },
+      {
+        "kind": "option",
+        "code": "LAR",
+        "meaning": "Length as Required",
+        "line_ids": [
+          "p262.12"
+        ]
+      },
+      {
+        "kind": "option",
+        "code": "NRP",
+        "meaning": "Non-Removable Pins",
+        "line_ids": [
+          "p262.13"
+        ]
+      },
+      {
+        "kind": "option",
+        "code": "LDW",
+        "meaning": "Less Door Width",
+        "line_ids": [
+          "p262.15"
+        ]
+      },
+      {
+        "kind": "option",
+        "code": "RQE",
+        "meaning": "Request to Exit",
+        "line_ids": [
+          "p262.16"
+        ]
+      },
+      {
+        "kind": "finish",
+        "code": "626",
+        "meaning": "Satin Chromium Plated Over Nickel",
+        "line_ids": [
+          "p262.25"
+        ]
+      },
+      {
+        "kind": "finish",
+        "code": "630",
+        "meaning": "Satin Stainless Steel",
+        "line_ids": [
+          "p262.26"
+        ]
+      },
+      {
+        "kind": "finish",
+        "code": "689",
+        "meaning": "Aluminum (Painted)",
+        "line_ids": [
+          "p262.27"
+        ]
+      },
+      {
+        "kind": "finish",
+        "code": "26D",
+        "meaning": "Satin Chromium Plated Over Nickel",
+        "line_ids": [
+          "p262.28"
+        ]
+      },
+      {
+        "kind": "finish",
+        "code": "B",
+        "meaning": "Brown",
+        "line_ids": [
+          "p262.32"
+        ]
+      },
+      {
+        "kind": "finish",
+        "code": "C",
+        "meaning": "Charcoal",
+        "line_ids": [
+          "p262.33"
+        ]
+      }
+    ]
+  }
+}

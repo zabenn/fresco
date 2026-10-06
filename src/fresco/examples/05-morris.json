@@ -1,0 +1,87 @@
+{
+  "source": "030f2d1d-Morris_Bank_Macon_-Spec_Manual_Issued_for_Const._1-26-26_FULL_SPECS.pdf",
+  "page": 250,
+  "input": "=== page 250 ===\np250.4 | [72] Set #201\np250.5 | [94] 1 Single Door #201 | [219] Stair #01 | [333] Stair #01 201 to/from Vesti- | [477] 105° LHR\np250.6 | [333] bule 202\np250.7 | [119] Opening Description: 3' 0\" x 8' 0\" x 1 3/4\" x WD Type WD-60-D5 x HMF Type HM-60-F1 x\np250.8 | [219] 60MIN\n\np250.9 | [94] 4 Hinges | [219] MPB79 4 1/2 x 4 1/2 NRP | [427] 10BE | [503] MC\np250.10 | [94] 1 Passage Set | [219] 10XU15 LMD 2 3/4\" BS | [427] 10BE | [503] SA\np250.11 | [94] 1 Closer | [219] 351 CPS TB | [427] 10BE | [503] SA\np250.12 | [94] 1 Wall Stop | [219] 409 | [427] 10BE | [503] RO\np250.13 | [94] 1 Smoke Seal | [219] S88 BL 21' | [503] PE",
+  "output": {
+    "sets": [
+      {
+        "set_number": "201",
+        "description": "3' 0\" x 8' 0\" x 1 3/4\" x WD Type WD-60-D5 x HMF Type HM-60-F1 x\np250.8 | [219] 60MIN",
+        "not_used": false,
+        "continues_previous_set": false,
+        "openings": [
+          "201"
+        ],
+        "header_line_ids": [
+          "p250.4"
+        ],
+        "components": [
+          {
+            "qty": 4,
+            "unit": null,
+            "description": "Hinges",
+            "catalog_number": "MPB79 4 1/2 x 4 1/2 NRP",
+            "mfr": "MC",
+            "finish": "10BE",
+            "notes": null,
+            "line_ids": [
+              "p250.9"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Passage Set",
+            "catalog_number": "10XU15 LMD 2 3/4\" BS",
+            "mfr": "SA",
+            "finish": "10BE",
+            "notes": null,
+            "line_ids": [
+              "p250.10"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Closer",
+            "catalog_number": "351 CPS TB",
+            "mfr": "SA",
+            "finish": "10BE",
+            "notes": null,
+            "line_ids": [
+              "p250.11"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Wall Stop",
+            "catalog_number": "409",
+            "mfr": "RO",
+            "finish": "10BE",
+            "notes": null,
+            "line_ids": [
+              "p250.12"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Smoke Seal",
+            "catalog_number": "S88 BL 21'",
+            "mfr": "PE",
+            "finish": null,
+            "notes": null,
+            "line_ids": [
+              "p250.13"
+            ]
+          }
+        ],
+        "notes": [],
+        "note_line_ids": [],
+        "operation": null,
+        "operation_line_ids": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "source": "08-70-00-Hardware-Schedule.pdf",
+  "page": 45,
+  "input": "=== page 45 ===\np45.13 | [133] Heading #77\n\np45.14 | [41] Item #435 | [133] 1 Single door C717, PARTY ROOM C709 FROM CLOSET | [518] LHR\n\np45.15 | [133] 762 x 2032 x 38 - WD DR x WD FR\n\np45.16 | [109] 3 | [133] Standard Hinge | [243] 1010RP F-626E | [518] -626E\np45.17 | [109] 1 | [133] Latchset | [243] GLA101 MIL RDT | [518] US15\np45.18 | [109] 1 | [133] Door Stop | [243] IVES 69 / 63 As Required | [518] US15",
+  "output": {
+    "sets": [
+      {
+        "set_number": "77",
+        "description": null,
+        "not_used": false,
+        "continues_previous_set": false,
+        "openings": [
+          "C717"
+        ],
+        "header_line_ids": [
+          "p45.13",
+          "p45.14"
+        ],
+        "components": [
+          {
+            "qty": 3,
+            "unit": null,
+            "description": "Standard Hinge",
+            "catalog_number": "1010RP F-626E",
+            "mfr": null,
+            "finish": "626E",
+            "notes": null,
+            "line_ids": [
+              "p45.16"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Latchset",
+            "catalog_number": "GLA101 MIL RDT",
+            "mfr": null,
+            "finish": "US15",
+            "notes": null,
+            "line_ids": [
+              "p45.17"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Door Stop",
+            "catalog_number": "69/63",
+            "mfr": "IVES",
+            "finish": "US15",
+            "notes": "As Required",
+            "line_ids": [
+              "p45.18"
+            ]
+          }
+        ],
+        "notes": [],
+        "note_line_ids": [],
+        "operation": null,
+        "operation_line_ids": []
+      }
+    ]
+  }
+}

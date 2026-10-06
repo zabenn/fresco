@@ -1,0 +1,148 @@
+{
+  "source": "Hdw Spec & Sch-IFT_5.pdf",
+  "page": 33,
+  "input": "=== page 33 ===\np33.3 | [39] Set #27\n\np33.4 | [60] Doors: D152\np33.5 | [66] 3 Hinge(s) | [212] BB1279 4 1/2\" x 4\" | [482] US32D | [536] HA\np33.6 | [66] 1 Electric Strike | [212] 2930 CYL | [482] US32D | [536] HA\np33.7 | [66] 1 Storeroom Lockset | [212] 3480 WTN SFIC | [482] US26D | [536] HA\np33.8 | [66] 1 SFIC Core(s) | [212] 3969-C | [482] US26D | [536] HA\np33.15 | [66] 1 Door Position Switch(es) | [212] 2-679-0626 | [536] HA\np33.18 | [66] 3 Silencers | [212] 307D | [482] GREY | [536] HA\np33.20 | [66] 2 Battery Backup | [212] 2-679-0661 | [482] No Finish | [536] HA\np33.21 | [66] 1 Emergency Kit | [212] 2-659-0372 | [536] HA\np33.22 | [66] 1 Wiring Diagrams | [212] Wiring Diagrams\np33.23 | [77] Operational Description:\n\np33.24 | [77] Door is normally closed and unlocked.\np33.25 | [77] Free entry when room is not in use; pushing actuator opens the door.\np33.26 | [77] Free egress at all times; pushing actuator opens the door.\np33.27 | [77] Upon loss of power operator is disabled.\np33.28 | [77] Battery backup provides power upon loss of power to ensure door remains locked if in use.\np33.29 | [77] If the interior \"Push to Lock\" button has been pushed, exterior actuator is disabled and door is locked.\np33.30 | [77] If the interior \"Push to Lock\" button has been pushed, it lights up and also lights up exterior occupancy indicator.\np33.31 | [77] Door is unlocked and system is reset by pushing \"Push to Lock\" button a second time or opening the door from the interior.\np33.32 | [77] Emergency push button inside restroom - pushing button will sound audible alarm and light exterior \"Assistance Required\"\np33.33 | [77] light. Pulling button will cancel alarm and turn off light.",
+  "output": {
+    "sets": [
+      {
+        "set_number": "27",
+        "description": null,
+        "not_used": false,
+        "continues_previous_set": false,
+        "openings": [
+          "D152"
+        ],
+        "header_line_ids": [
+          "p33.3",
+          "p33.4"
+        ],
+        "components": [
+          {
+            "qty": 3,
+            "unit": null,
+            "description": "Hinge(s)",
+            "catalog_number": "BB1279 4 1/2\" x 4\"",
+            "mfr": "HA",
+            "finish": "US32D",
+            "notes": null,
+            "line_ids": [
+              "p33.5"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Electric Strike",
+            "catalog_number": "2930 CYL",
+            "mfr": "HA",
+            "finish": "US32D",
+            "notes": null,
+            "line_ids": [
+              "p33.6"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Storeroom Lockset",
+            "catalog_number": "3480 WTN SFIC",
+            "mfr": "HA",
+            "finish": "US26D",
+            "notes": null,
+            "line_ids": [
+              "p33.7"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "SFIC Core(s)",
+            "catalog_number": "3969-C",
+            "mfr": "HA",
+            "finish": "US26D",
+            "notes": null,
+            "line_ids": [
+              "p33.8"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Door Position Switch(es)",
+            "catalog_number": "2-679-0626",
+            "mfr": "HA",
+            "finish": null,
+            "notes": null,
+            "line_ids": [
+              "p33.15"
+            ]
+          },
+          {
+            "qty": 3,
+            "unit": null,
+            "description": "Silencers",
+            "catalog_number": "307D",
+            "mfr": "HA",
+            "finish": "GREY",
+            "notes": null,
+            "line_ids": [
+              "p33.18"
+            ]
+          },
+          {
+            "qty": 2,
+            "unit": null,
+            "description": "Battery Backup",
+            "catalog_number": "2-679-0661",
+            "mfr": "HA",
+            "finish": "No Finish",
+            "notes": null,
+            "line_ids": [
+              "p33.20"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Emergency Kit",
+            "catalog_number": "2-659-0372",
+            "mfr": "HA",
+            "finish": null,
+            "notes": null,
+            "line_ids": [
+              "p33.21"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Wiring Diagrams",
+            "catalog_number": "Wiring Diagrams",
+            "mfr": null,
+            "finish": null,
+            "notes": null,
+            "line_ids": [
+              "p33.22"
+            ]
+          }
+        ],
+        "notes": [],
+        "note_line_ids": [],
+        "operation": "Door is normally closed and unlocked. Free entry when room is not in use; pushing actuator opens the door. Free egress at all times; pushing actuator opens the door. Upon loss of power operator is disabled. Battery backup provides power upon loss of power to ensure door remains locked if in use. If the interior \"Push to Lock\" button has been pushed, exterior actuator is disabled and door is locked. If the interior \"Push to Lock\" button has been pushed, it lights up and also lights up exterior occupancy indicator. Door is unlocked and system is reset by pushing \"Push to Lock\" button a second time or opening the door from the interior. Emergency push button inside restroom - pushing button will sound audible alarm and light exterior \"Assistance Required\" light. Pulling button will cancel alarm and turn off light.",
+        "operation_line_ids": [
+          "p33.23",
+          "p33.24",
+          "p33.25",
+          "p33.26",
+          "p33.27",
+          "p33.28",
+          "p33.29",
+          "p33.30",
+          "p33.31",
+          "p33.32",
+          "p33.33"
+        ]
+      }
+    ]
+  }
+}

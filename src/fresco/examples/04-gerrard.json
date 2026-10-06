@@ -1,0 +1,100 @@
+{
+  "source": "Hdw Spec & Sch-IFT_5.pdf",
+  "page": 33,
+  "input": "=== page 33 ===\np33.43 | [39] Set #29\n\np33.44 | [60] Doors: D168\np33.45 | [66] 3 Hinge(s) | [212] BB1279 4 1/2\" x 4\" | [482] US32D | [536] HA\np33.46 | [66] 1 Privacy Set w/ Indicator | [212] 3896 SECT WTN ADA Turn | [482] US26D | [536] HA\np33.47 | [66] 1 Closer(s) | [212] 5200 TRK NHOTA | [482] ALM | [536] HA\np33.48 | [66] 1 Kick Plate(s) | [212] 190S 10\" x 2\" LDW | [482] US32D | [536] HA\np33.49 | [66] 1 Mop Plate(s) | [212] 190S 4\" x 1\" LDW | [482] US32D | [536] HA\np33.50 | [66] 3 Silencers | [212] 307D | [482] GREY | [536] HA",
+  "output": {
+    "sets": [
+      {
+        "set_number": "29",
+        "description": null,
+        "not_used": false,
+        "continues_previous_set": false,
+        "openings": [
+          "D168"
+        ],
+        "header_line_ids": [
+          "p33.43",
+          "p33.44"
+        ],
+        "components": [
+          {
+            "qty": 3,
+            "unit": null,
+            "description": "Hinge(s)",
+            "catalog_number": "BB1279 4 1/2\" x 4\"",
+            "mfr": "HA",
+            "finish": "US32D",
+            "notes": null,
+            "line_ids": [
+              "p33.45"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Privacy Set w/ Indicator",
+            "catalog_number": "3896 SECT WTN ADA Turn",
+            "mfr": "HA",
+            "finish": "US26D",
+            "notes": null,
+            "line_ids": [
+              "p33.46"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Closer(s)",
+            "catalog_number": "5200 TRK NHOTA",
+            "mfr": "HA",
+            "finish": "ALM",
+            "notes": null,
+            "line_ids": [
+              "p33.47"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Kick Plate(s)",
+            "catalog_number": "190S 10\" x 2\" LDW",
+            "mfr": "HA",
+            "finish": "US32D",
+            "notes": null,
+            "line_ids": [
+              "p33.48"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": null,
+            "description": "Mop Plate(s)",
+            "catalog_number": "190S 4\" x 1\" LDW",
+            "mfr": "HA",
+            "finish": "US32D",
+            "notes": null,
+            "line_ids": [
+              "p33.49"
+            ]
+          },
+          {
+            "qty": 3,
+            "unit": null,
+            "description": "Silencers",
+            "catalog_number": "307D",
+            "mfr": "HA",
+            "finish": "GREY",
+            "notes": null,
+            "line_ids": [
+              "p33.50"
+            ]
+          }
+        ],
+        "notes": [],
+        "note_line_ids": [],
+        "operation": null,
+        "operation_line_ids": []
+      }
+    ]
+  }
+}

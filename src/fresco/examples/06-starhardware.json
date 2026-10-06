@@ -1,0 +1,90 @@
+{
+  "source": "9839d1a1-Division_8_Specs_-_Commons_Lane.pdf",
+  "page": 54,
+  "input": "=== page 54 ===\np54.21 | [72] Hardware Group/Set #C1 – Closets\np54.22 | [77] __ | [101] Ea. Hinges (residential light | [257] #5PB1 (size & quantity per Section 08 71 00). | [481] 625 | [512] IV\np54.23 | [125] duty, no ball bearings | [257] Provide 5PB1 for pricing, but provide alternate\np54.24 | [125] required) | [257] VE pricing for residential grade, less gauge\np54.25 | [257] hinge 4” x 4” x Ives or approved equal by\np54.26 | [257] door/frame manufacturer. On all project hinges:\np54.27 | [257] Where framing/jamb trim will not allow door to\np54.28 | [257] open with hitting jamb, provide wide through\np54.29 | [257] hinge (width as required to open doors to wall\np54.30 | [257] stop or floor stop installation locations)\np54.31 | [77] 1 | [101] Ea. Passage Latchset | [257] Frascio T600 x 270 Metro | [481] 625 | [512] FR\np54.32 | [257] x 1912Q (Square Rose)\n\np54.33 | [77] 1 | [101] Ea. Hinge Pin Stop | [257] Device #1512 in Polished Chrome finish by Don CP | [512] DO\np54.34 | [257] Jo\np54.35 | [77] 1 | [101] Ea. Alternate Option: Wall Door 4050.260 (3.75”) x Polished Chrome | [481] 260 | [512] BA\np54.36 | [125] Bumper Stop\np54.37 | [77] Note: Furnish all devices & components for hardware groups/set above in accordance with Contract\np54.38 | [77] Documents (including but not limited to additional hardware devices requirements in the above\np54.39 | [77] specification language, architectural plans & full specification documents).",
+  "output": {
+    "sets": [
+      {
+        "set_number": "C1",
+        "description": "Closets",
+        "not_used": false,
+        "continues_previous_set": false,
+        "openings": [],
+        "header_line_ids": [
+          "p54.21"
+        ],
+        "components": [
+          {
+            "qty": null,
+            "unit": "Ea.",
+            "description": "Hinges (residential light duty, no ball bearings required)",
+            "catalog_number": "#5PB1",
+            "mfr": "IV",
+            "finish": "625",
+            "notes": "(size & quantity per Section 08 71 00). Provide 5PB1 for pricing, but provide alternate VE pricing for residential grade, less gauge hinge 4” x 4” x Ives or approved equal by door/frame manufacturer. On all project hinges: Where framing/jamb trim will not allow door to open with hitting jamb, provide wide through hinge (width as required to open doors to wall stop or floor stop installation locations)",
+            "line_ids": [
+              "p54.22",
+              "p54.23",
+              "p54.24",
+              "p54.25",
+              "p54.26",
+              "p54.27",
+              "p54.28",
+              "p54.29",
+              "p54.30"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": "Ea.",
+            "description": "Passage Latchset",
+            "catalog_number": "Frascio T600 x 270 Metro x 1912Q (Square Rose)",
+            "mfr": "FR",
+            "finish": "625",
+            "notes": null,
+            "line_ids": [
+              "p54.31",
+              "p54.32"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": "Ea.",
+            "description": "Hinge Pin Stop",
+            "catalog_number": "Device #1512",
+            "mfr": "DO",
+            "finish": "CP",
+            "notes": "in Polished Chrome finish by Don Jo",
+            "line_ids": [
+              "p54.33",
+              "p54.34"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": "Ea.",
+            "description": "Wall Door Bumper Stop",
+            "catalog_number": "4050.260 (3.75”) x Polished Chrome",
+            "mfr": "BA",
+            "finish": "260",
+            "notes": "Alternate Option",
+            "line_ids": [
+              "p54.35",
+              "p54.36"
+            ]
+          }
+        ],
+        "notes": [
+          "Furnish all devices & components for hardware groups/set above in accordance with Contract Documents (including but not limited to additional hardware devices requirements in the above specification language, architectural plans & full specification documents)."
+        ],
+        "note_line_ids": [
+          "p54.37",
+          "p54.38",
+          "p54.39"
+        ],
+        "operation": null,
+        "operation_line_ids": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "source": "08 71 00 - DOOR HARDWARE.pdf",
+  "page": 146,
+  "input": "=== page 146 ===\np146.25 | [72] Hardware Group No. 163\n\np146.26 | [72] Provide each SGL door(s) with the following:\np146.27 | [80] QT | [142] DESCRIPTION | [271] CATALOG NUMBER | [471] FINISH MFR\np146.28 | [80] Y\np146.29 | [80] 3 | [108] EA | [142] HEAVYWEIGHT HINGE | [271] 5BB1HW 4.5 X 4.5 - NRP AT | [471] 652 | [512] IVE\np146.30 | [271] OUTSWINGING LOCKING\np146.31 | [271] DOORS\np146.32 | [80] 1 | [108] EA | [142] PASSAGE SET | [271] 9K30N 15D | [471] 626 | [512] BES\np146.33 | [80] 1 | [108] EA | [142] WALL STOP | [271] WS401/402CCV | [471] 626 | [512] IVE\np146.34 | [80] 3 | [108] EA | [142] SILENCER | [271] SR64 | [471] GRY | [512] IVE\n=== page 147 ===\np147.1 | [80] QT | [142] DESCRIPTION | [271] CATALOG NUMBER | [471] FINISH MFR\np147.2 | [80] Y\np147.3 | [142] NOTE: | [271] FURNISH 5BB1HW 5\" X 4.5\"\np147.4 | [271] HINGES AT DOORS OVER 3'0\"\np147.5 | [271] WIDE\np147.6 | [142] NOTE: | [271] FURNISH SEALS AS\np147.7 | [271] REQUIRED TO MAINTAIN\np147.8 | [271] SMOKE/FIRE RATING OR STC\np147.9 | [271] RATING AS NOTED ON PLANS\np147.10 | [142] NOTE: | [271] FURNISH ADDITIONAL HINGES\np147.11 | [271] AS REQUIRED FOR DOORS\np147.12 | [271] 7'6\" AND OVER AS REQUIRED",
+  "output": {
+    "sets": [
+      {
+        "set_number": "163",
+        "description": null,
+        "not_used": false,
+        "continues_previous_set": false,
+        "openings": [],
+        "header_line_ids": [
+          "p146.25",
+          "p146.26"
+        ],
+        "components": [
+          {
+            "qty": 3,
+            "unit": "EA",
+            "description": "HEAVYWEIGHT HINGE",
+            "catalog_number": "5BB1HW 4.5 X 4.5",
+            "mfr": "IVE",
+            "finish": "652",
+            "notes": "NRP AT OUTSWINGING LOCKING DOORS",
+            "line_ids": [
+              "p146.29",
+              "p146.30",
+              "p146.31"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": "EA",
+            "description": "PASSAGE SET",
+            "catalog_number": "9K30N 15D",
+            "mfr": "BES",
+            "finish": "626",
+            "notes": null,
+            "line_ids": [
+              "p146.32"
+            ]
+          },
+          {
+            "qty": 1,
+            "unit": "EA",
+            "description": "WALL STOP",
+            "catalog_number": "WS401/402CCV",
+            "mfr": "IVE",
+            "finish": "626",
+            "notes": null,
+            "line_ids": [
+              "p146.33"
+            ]
+          },
+          {
+            "qty": 3,
+            "unit": "EA",
+            "description": "SILENCER",
+            "catalog_number": "SR64",
+            "mfr": "IVE",
+            "finish": "GRY",
+            "notes": null,
+            "line_ids": [
+              "p146.34"
+            ]
+          }
+        ],
+        "notes": [
+          "FURNISH 5BB1HW 5\" X 4.5\" HINGES AT DOORS OVER 3'0\" WIDE",
+          "FURNISH SEALS AS REQUIRED TO MAINTAIN SMOKE/FIRE RATING OR STC RATING AS NOTED ON PLANS",
+          "FURNISH ADDITIONAL HINGES AS REQUIRED FOR DOORS 7'6\" AND OVER AS REQUIRED"
+        ],
+        "note_line_ids": [
+          "p147.3",
+          "p147.4",
+          "p147.5",
+          "p147.6",
+          "p147.7",
+          "p147.8",
+          "p147.9",
+          "p147.10",
+          "p147.11",
+          "p147.12"
+        ],
+        "operation": null,
+        "operation_line_ids": []
+      }
+    ]
+  }
+}
